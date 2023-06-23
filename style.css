@@ -1,0 +1,114 @@
+*{
+margin:0.1px ;
+padding:0.5;
+box-sizing:border-box;
+
+}
+body{
+   background-image: url('https://www.gannett-cdn.com/-mm-/b06cb076dd812969787f46894c1f92cd42f5b323/c=172-0-1197-769/local/-/media/2018/07/18/USATODAY/usatsports/heat-thermometer-rect.jpg?width=483&height=405&fit=crop');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    
+    justify-content: center;
+    align-items:center;
+    min-height: 400vh;
+ overflow-y:hidden;
+   /* margin-top: 10rem;
+    padding-top: 10rem;*/
+}
+
+
+.container{
+   /* max-width: 450;*/
+    background-color:transparent;
+    border-radius: 8px;
+    box-shadow:0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family:TimesNewRoman;
+    font-style: italic;
+    padding:20px;
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+    width:50%;
+    margin-top: 10%;
+    margin-left:30%;
+  
+  padding-top:2%;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 0.5px;
+    
+
+}
+.Temperature-icon{
+    font-size: 50px;
+    color: rgb(233, 17, 13);
+}
+h1{
+    color: #09070e;
+    letter-spacing: 1.4px;
+   font-size: 30px;
+   padding-bottom: 4px;
+}
+#celcius, #Fahernheit, #Kelvin{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+height:30px;
+padding:0 2px;
+padding-left: 3%;
+
+}
+.input{
+    flex:5px ;
+    height: 10px;
+    line-height: 10px;
+    font-size: 30px;
+    font-weight:20px;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    width:30%;
+    border:2px solid black;
+    border-radius: 8px 0 0 8px;
+    padding: 0 0px;
+}
+.icon{
+    /*flex:5px;*/
+    font-size: 25px;
+    color: #851717;
+    margin-left: 0.5%;
+    }
+input::-webkit-outer-spin-button,
+::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.button{
+    margin-top: 25px;
+    text-align:center;
+    
+}
+.button button{
+    border:black 2px;
+    outline:none;
+    padding:10px 30px;
+    font-size: 20px;
+    font-weight:600;
+border-radius: 8px;
+cursor:pointer;
+transition: 0.3s;
+background-color:#e9d361;
+}
+
+.button button:hover{
+    background:transparent;
+    color:#363047;
+}
